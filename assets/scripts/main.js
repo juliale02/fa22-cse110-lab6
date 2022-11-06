@@ -116,7 +116,7 @@ function initFormHandler() {
     localStorage.clear();
     // B13. TODO - Delete the contents of <main>
     var main = document.querySelector('main')
-    main.textContent = "";
+    main.textContent = ""; 
     
   });
   

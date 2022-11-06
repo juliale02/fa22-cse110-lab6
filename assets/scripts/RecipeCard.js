@@ -173,8 +173,8 @@ class RecipeCard extends HTMLElement {
     var numRatings = shadow.querySelector('span[alt="num-ratings"]');
     numRatings.textContent = '('+data.numRatings+')'; 
 
-    var time= shadow.querySelector('time');
-    time.textContent = data.time;
+    var time = shadow.querySelector('time');
+    time.textContent = data.lengthTime;
 
     var ingredients = shadow.querySelector('p[class="ingredients"]');
     ingredients.textContent= data.ingredients;
